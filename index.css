@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+:root{
+  --primary-color: #212ef0;
+}
+body{
+  font-family: 'Lexend', sans-serif;
+  margin: 0rem;
+  font-size: 130%;
+}
+.nav-heading{
+  padding: 0rem 1rem;
+}
+.navbar{
+  color: white;
+  padding: 1px 0px;
+  background-color: var(--primary-color);
+  border-bottom-right-radius: 1rem;
+}
+.non-bullet-list-item{
+  list-style:none;
+  display: inline;
+  padding: 1rem;
+}
+.links.active{
+  font-weight: bold;
+}
+.links{
+  font-size: medium;
+  text-decoration: none;
+  color:white;
+}
+.right-sided{
+  text-align: right;
+}
+
+h1{
+  color: var(--primary-color);
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.container{
+  max-width: 600px;
+  margin : auto;
+}
+#submit-button{
+  font-size: 100%;
+  border: none;
+  padding: 10px 30px;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+input{
+  cursor: pointer;
+}
+.footer{
+  margin: 0rem;
+  padding: 0rem;
+}
+.image{
+  width: 40px;
+}
+.middle{
+  text-align: center;
+  margin-bottom: 0rem;
+}
+.angle-input{
+  font-size: 100%;
+  cursor:auto;
+  border: var(--primary-color) solid 2px;
+  padding: 10px;
+  margin: 8px 0px;
+  border-radius: 8px;
+  outline: white;
+}
+.container-center{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  min-height: 58vh;
+}
